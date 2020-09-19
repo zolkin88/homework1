@@ -15,9 +15,13 @@ class APIClient:
         url = self.base_address + path
         return requests.get(url=url, params=params)
 
+    def delete(self, path="/", params=None):
+        url = self.base_address + path
+        return requests.delete(url=url, params=params)
+
 
 def pytest_addoption(parser):
-    parser.addoption("--url", default="https://api.openbrewerydb.org")
+    parser.addoption("--url", default="https://dog.ceo")
 
 
 @pytest.fixture(scope="session")
