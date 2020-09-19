@@ -1,0 +1,91 @@
+1597496762081	geckodriver	INFO	Listening on 127.0.0.1:42321
+1597496762087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejzXccf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597496764869	Marionette	INFO	Listening on port 32987
+1597496764902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597496785711	Marionette	INFO	Stopped listening on port 32987
+1597496878819	geckodriver	INFO	Listening on 127.0.0.1:50581
+1597496878824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE0Reny"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597496881656	Marionette	INFO	Listening on port 33565
+1597496881749	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597496891417	Marionette	INFO	Stopped listening on port 33565
+1597496909856	geckodriver	INFO	Listening on 127.0.0.1:55189
+1597496909861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewEohpx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597496912649	Marionette	INFO	Listening on port 40351
+1597496912680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597496913537	Marionette	INFO	Stopped listening on port 40351
+1597497005603	geckodriver	INFO	Listening on 127.0.0.1:54567
+1597497005613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXD2Fpk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497008327	Marionette	INFO	Listening on port 46729
+1597497008351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497100007	geckodriver	INFO	Listening on 127.0.0.1:46373
+1597497100011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFKehoG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497102917	Marionette	INFO	Listening on port 36301
+1597497102931	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497110393	Marionette	INFO	Stopped listening on port 36301
+1597497126094	geckodriver	INFO	Listening on 127.0.0.1:53729
+1597497126100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev7YzMz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497128945	Marionette	INFO	Listening on port 43765
+1597497129017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497129922	Marionette	INFO	Stopped listening on port 43765
+1597497165051	geckodriver	INFO	Listening on 127.0.0.1:52249
+1597497165057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCphcbE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497167719	Marionette	INFO	Listening on port 46481
+1597497167780	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497168599	Marionette	INFO	Stopped listening on port 46481
+1597497635632	geckodriver	INFO	Listening on 127.0.0.1:34949
+1597497635637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilei8Enwy"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497638306	Marionette	INFO	Listening on port 41107
+1597497638355	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497930059	geckodriver	INFO	Listening on 127.0.0.1:46743
+1597497930066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCibSb0"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497933006	Marionette	INFO	Listening on port 36883
+1597497933083	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497934196	geckodriver	INFO	Listening on 127.0.0.1:35571
+1597497934201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3HnOYH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497937252	Marionette	INFO	Listening on port 41045
+1597497937318	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597497994110	geckodriver	INFO	Listening on 127.0.0.1:39139
+1597497994116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDPiPEu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597497996853	Marionette	INFO	Listening on port 41371
+1597497996939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597498133831	Marionette	INFO	Stopped listening on port 41371
+1597498605838	geckodriver	INFO	Listening on 127.0.0.1:55441
+1597498605849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletqinzT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597498608695	Marionette	INFO	Listening on port 33977
+1597498608770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597498640848	geckodriver	INFO	Listening on 127.0.0.1:54639
+1597498640859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0hEJAW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597498643880	Marionette	INFO	Listening on port 37881
+1597498643894	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1597498720669	Marionette	INFO	Stopped listening on port 37881
+1597498721779	Marionette	INFO	Stopped listening on port 33977
+1597498722443	Marionette	INFO	Stopped listening on port 41045
+1597498723432	Marionette	INFO	Stopped listening on port 36883
+1597498932632	Marionette	INFO	Stopped listening on port 46729
+1597498944153	Marionette	INFO	Stopped listening on port 41107
