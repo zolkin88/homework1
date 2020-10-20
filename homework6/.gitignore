@@ -1,5 +1,6 @@
 .idea/
 tests/.pytest_cache/
 tests/geckodriver.log
-
+tests/opencart.log
+tests/opencart_with_listener.log
 
