@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48299071-5e68-477f-b97b-3f442930e6cb" name="Default Changelist" comment="Добавил гитигнор" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="home_work_5" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="zolkin88" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="homeworks" />
+  </component>
+  <component name="ProjectId" id="1g8DgFoh1lR24aDyuWu8t1659GN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework9" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_opencart.py">
+    <configuration name="logging_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging_ex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_opencart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_opencart.test_admin_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_opencart.test_admin_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_opencart.test_log_out" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_opencart.test_log_out&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in /home/diman/git/homeworks/homework5/tests/test_example_tests.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_example_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in logging_ex.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/logging_ex.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_opencart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_opencart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_opencart.py" />
+        <item itemvalue="Python.logging_ex" />
+        <item itemvalue="Python tests.pytest in logging_ex.py" />
+        <item itemvalue="Python tests.pytest for test_opencart.test_log_out" />
+        <item itemvalue="Python tests.pytest for test_opencart.test_admin_page" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48299071-5e68-477f-b97b-3f442930e6cb" name="Default Changelist" comment="" />
+      <created>1597487434728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597487434728</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Добавил гитигнор">
+      <created>1600557607309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600557607309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил гитигнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил гитигнор" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="158" width="1084" height="782" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597496144450">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="451" y="158" width="1084" height="782" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.949@67.27.1853.949" timestamp="1597496144450" />
+    <state x="675" y="302" width="623" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603215289382">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="675" y="302" width="623" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.949@67.27.1853.949" timestamp="1603215289382" />
+    <state x="726" y="249" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603214268293">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="726" y="249" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.949@67.27.1853.949" timestamp="1603214268293" />
+    <state x="242" y="106" width="1482" height="789" key="DiffContextDialog" timestamp="1600557648488">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="242" y="106" width="1482" height="789" key="DiffContextDialog/67.27.1853.949@67.27.1853.949" timestamp="1600557648488" />
+    <state x="776" y="258" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603216486214">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="776" y="258" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.949@67.27.1853.949" timestamp="1603216486214" />
+    <state x="743" y="369" width="491" height="262" key="Github.CreatePullRequestDialog" timestamp="1600557974684">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="743" y="369" width="491" height="262" key="Github.CreatePullRequestDialog/67.27.1853.949@67.27.1853.949" timestamp="1600557974684" />
+    <state width="915" height="415" key="GridCell.Tab.0.bottom" timestamp="1603215593334">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.0.bottom/67.27.1853.949@67.27.1853.949" timestamp="1603215593334" />
+    <state width="915" height="415" key="GridCell.Tab.0.center" timestamp="1603215593334">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.0.center/67.27.1853.949@67.27.1853.949" timestamp="1603215593334" />
+    <state width="915" height="415" key="GridCell.Tab.0.left" timestamp="1603215593333">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.0.left/67.27.1853.949@67.27.1853.949" timestamp="1603215593333" />
+    <state width="915" height="415" key="GridCell.Tab.0.right" timestamp="1603215593334">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.0.right/67.27.1853.949@67.27.1853.949" timestamp="1603215593334" />
+    <state width="915" height="415" key="GridCell.Tab.1.bottom" timestamp="1603215593336">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.1.bottom/67.27.1853.949@67.27.1853.949" timestamp="1603215593336" />
+    <state width="915" height="415" key="GridCell.Tab.1.center" timestamp="1603215593335">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.1.center/67.27.1853.949@67.27.1853.949" timestamp="1603215593335" />
+    <state width="915" height="415" key="GridCell.Tab.1.left" timestamp="1603215593335">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.1.left/67.27.1853.949@67.27.1853.949" timestamp="1603215593335" />
+    <state width="915" height="415" key="GridCell.Tab.1.right" timestamp="1603215593335">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="915" height="415" key="GridCell.Tab.1.right/67.27.1853.949@67.27.1853.949" timestamp="1603215593335" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600557651708">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.949@67.27.1853.949" timestamp="1600557651708" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_object/LoginPage.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/conftest.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/conftest.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/BasePage.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/CategoryPage.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/CategoryPage.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/CategoryPage.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/SamsungPage.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/SamsungPage.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/SamsungPage.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/RegisterAccount.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
