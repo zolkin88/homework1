@@ -11,6 +11,11 @@ class Blog:
         return response.json()
 
     def users(self):
+        response = requests.get("https://jsonplaceholder.typicode.com/users")
+
+        return response.json()
+
+    def user_by_id(self):
         response = requests.get("https://jsonplaceholder.typicode.com/users/1")
         return response.json()
 
