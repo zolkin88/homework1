@@ -5,7 +5,7 @@ from selenium.webdriver import FirefoxOptions, ChromeOptions
 
 def pytest_addoption(parser):
     parser.addoption("--browser", default="firefox")
-    parser.addoption("--base_url", default="https://www.ozon.ru")
+    parser.addoption("--base_url", default="https://otus.ru")
     parser.addoption("--path", default="/")
 
 
@@ -40,4 +40,4 @@ def browser(request, get_base_url, get_path):
     driver.open = open
     driver.open()
     yield driver
-    driver.quit()
+    # driver.quit()

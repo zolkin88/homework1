@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 
 class BasePage(object):
-    TIME_TO_WAIT = 5
+    TIME_TO_WAIT = 10
 
     def __init__(self, driver):
         self.driver = driver
@@ -30,3 +30,9 @@ class BasePage(object):
         element = WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
             EC.presence_of_element_located(locator))
         return element.text
+
+    def _place_cursor(self, locator):
+        element_to_hover_over = self.driver.find_element_by_xpath(locator)
+        hover = ActionChains(self.driver).move_to_element(element_to_hover_over)
+        hover.perform()
+
