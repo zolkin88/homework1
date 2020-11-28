@@ -32,15 +32,15 @@ def test_main_page(browser):
 #         user_page = UserPage(browser)
 #         assert user_page.check_user_name() == u'Дмитрий Золкин'
 
-# def test_check_numbers_of_courses(browser):
-#     main_page = MainPage(browser)
-#     with allure.step(u'Проверяем, что в списке курсов есть: Тестирование'):
-#         main_page.check_testing_course()
-#     with allure.step(u'Проверяем, что на странице курсов по тестированию 12 курсов'):
-#         courses_page = CoursesPage(browser)
-#         numbers = courses_page.get_number_of_courses()
-#         # allure.attach("Ожидаемый результат:12",)
-#         assert numbers == 12
+def test_check_numbers_of_courses(browser):
+    main_page = MainPage(browser)
+    with allure.step(u'Проверяем, что в списке курсов есть: Тестирование'):
+        main_page.check_testing_course()
+    with allure.step(u'Проверяем, что на странице курсов по тестированию 12 курсов'):
+        courses_page = CoursesPage(browser)
+        numbers = courses_page.get_number_of_courses()
+        # allure.attach("Ожидаемый результат:12",)
+        assert numbers == 12
 
 #
 # def test_python_qa_engineer_in_list(browser):
