@@ -4,7 +4,8 @@ from selenium.webdriver import FirefoxOptions, ChromeOptions
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", default="firefox")
+
+    parser.addoption("--browser", default="chrome")
     parser.addoption("--base_url", default="https://otus.ru")
     parser.addoption("--path", default="/")
 
@@ -25,7 +26,7 @@ def get_path(request):
 def browser(request, get_base_url, get_path):
     if "chrome" == request.config.getoption("--browser"):
         chrome_options = ChromeOptions()
-        chrome_options.headless = True
+        chrome_options.headless = False
         driver = webdriver.Chrome(executable_path='/var/lib/jenkins/workspace/test_otus/last_work/tests/chromedriver',
                                   options=chrome_options)
         driver.maximize_window()
