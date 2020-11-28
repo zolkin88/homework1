@@ -30,8 +30,8 @@ def browser(request, get_base_url, get_path):
         driver.maximize_window()
     else:
         firefox_options = FirefoxOptions()
-        firefox_options.headless = False
-        driver = webdriver.Firefox(executable_path='/home/diman/git/homeworks/last_work/tests/geckodriver',
+        firefox_options.headless = True
+        driver = webdriver.Firefox(executable_path='/var/lib/jenkins/workspace/test_otus/last_work/tests/geckodriver',
                                    options=firefox_options)
         driver.maximize_window()
 
