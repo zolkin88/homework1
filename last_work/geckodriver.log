@@ -9,3 +9,46 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1606558242688	Marionette	INFO	Listening on port 38807
 1606558242721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606559266305	geckodriver	INFO	Listening on 127.0.0.1:39099
+1606559266356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHtILeq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606559270904	Marionette	INFO	Listening on port 36517
+1606559271014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606559359354	geckodriver	INFO	Listening on 127.0.0.1:60297
+1606559360457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileplAkfZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606559373274	Marionette	INFO	Listening on port 35073
+1606559373398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606559441943	geckodriver	INFO	Listening on 127.0.0.1:50887
+1606559442977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemFkO6H"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606559450113	Marionette	INFO	Listening on port 45749
+1606559450159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://otus.ru/ line 1 > injectedScript, line 41: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://otus.ru/ line 1 > injectedScript, line 41: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://otus.ru/ line 1 > injectedScript, line 41: NS_ERROR_NOT_INITIALIZED: 
+1606559483254	geckodriver	INFO	Listening on 127.0.0.1:55809
+1606559483278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2CjIsF"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606559486779	Marionette	INFO	Listening on port 39157
+1606559487139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 404: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 404: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606559547615	Marionette	INFO	Stopped listening on port 45749
+1606559583853	Marionette	INFO	Stopped listening on port 35073
+1606559609557	Marionette	INFO	Stopped listening on port 38807
+1606559609559	Marionette	INFO	Stopped listening on port 36517
+1606560684269	geckodriver	INFO	Listening on 127.0.0.1:44919
+1606560684275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9HjL0U"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606560687207	Marionette	INFO	Listening on port 33365
+1606560687332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 404: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 404: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).

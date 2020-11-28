@@ -24,9 +24,10 @@ def get_path(request):
 @pytest.fixture
 def browser(request, get_base_url, get_path):
     if "chrome" == request.config.getoption("--browser"):
-        chrome_options = ChromeOptions
+        chrome_options = ChromeOptions()
         chrome_options.headless = True
-        driver = webdriver.Chrome(executable_path='./chromedriver')
+        driver = webdriver.Chrome(executable_path='/var/lib/jenkins/workspace/test_otus/last_work/tests/chromedriver',
+                                  options=chrome_options)
         driver.maximize_window()
     else:
         firefox_options = FirefoxOptions()

@@ -10,11 +10,11 @@ from page_objects.PythonQaPage import PythonQaPage
 import allure
 
 
-# def test_main_page(browser):
-#     with allure.step(u'Открываем главную страницу Ozone.ru'):
-#         main_page = MainPage(browser)
-#     with allure.step(u'Проверям, что заголовок равен: ' + MainPage.TITLE):
-#         main_page.check_title()
+def test_main_page(browser):
+    with allure.step(u'Открываем главную страницу Ozone.ru'):
+        main_page = MainPage(browser)
+    with allure.step(u'Проверям, что заголовок равен: ' + MainPage.TITLE):
+        main_page.check_title()
 
 
 # def test_login_on_main_page(browser):
@@ -54,21 +54,21 @@ import allure
 #         assert "Python QA Engineer" in names
 
 
-def test_check_nearest_courses_python_qa_engineer(browser):
-    nearest_date = '21 декабря'
-    main_page = MainPage(browser)
-    with allure.step(u'Проверяем, что в списке курсов есть: Тестирование'):
-        main_page.check_testing_course()
-        courses_page = CoursesPage(browser)
-    with allure.step(u'Переходим на страницу курса Python QA'):
-        courses_page.go_to_python_qa()
-    with allure.step(u'Проверяем ближайшую дату начала занятий'):
-        python_qa_page = PythonQaPage(browser)
-        allure.attach('',
-                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(nearest_date,
-                                                                                   python_qa_page.get_nearest_courses_date()),
-                      allure.attachment_type.TEXT)
-        assert nearest_date == python_qa_page.get_nearest_courses_date()
+# def test_check_nearest_courses_python_qa_engineer(browser):
+#     nearest_date = '21 декабря'
+#     main_page = MainPage(browser)
+#     with allure.step(u'Проверяем, что в списке курсов есть: Тестирование'):
+#         main_page.check_testing_course()
+#         courses_page = CoursesPage(browser)
+#     with allure.step(u'Переходим на страницу курса Python QA'):
+#         courses_page.go_to_python_qa()
+#     with allure.step(u'Проверяем ближайшую дату начала занятий'):
+#         python_qa_page = PythonQaPage(browser)
+#         allure.attach('',
+#                       'Ожидаемый результат: {0}, Полученный результат: {1}'.format(nearest_date,
+#                                                                                    python_qa_page.get_nearest_courses_date()),
+#                       allure.attachment_type.TEXT)
+#         assert nearest_date == python_qa_page.get_nearest_courses_date()
 
         # def test_python_qa_engineer_start_in_next_year()
         # def test_samsung_card(browser):
