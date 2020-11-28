@@ -39,20 +39,24 @@ def test_check_numbers_of_courses(browser):
     with allure.step(u'Проверяем, что на странице курсов по тестированию 12 курсов'):
         courses_page = CoursesPage(browser)
         numbers = courses_page.get_number_of_courses()
-        # allure.attach("Ожидаемый результат:12",)
+        allure.attach('',
+                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(12, numbers),
+                      allure.attachment_type.TEXT)
         assert numbers == 12
 
-#
-# def test_python_qa_engineer_in_list(browser):
-#     main_page = MainPage(browser)
-#     with allure.step(u'Проверяем, что в списке курсов есть: Тестирование'):
-#         main_page.check_testing_course()
-#         courses_page = CoursesPage(browser)
-#     with allure.step(u'Получаем названия всех курсов'):
-#         names = courses_page.get_names_of_courses()
-#     with allure.step(u'Проверяем, что в этом списке есть курс "Python QA Engineer"'):
-#         assert "Python QA Engineer" in names
 
+def test_python_qa_engineer_in_list(browser):
+    main_page = MainPage(browser)
+    with allure.step(u'Проверяем, что в списке курсов есть: Тестирование'):
+        main_page.check_testing_course()
+        courses_page = CoursesPage(browser)
+    with allure.step(u'Получаем названия всех курсов'):
+        names = courses_page.get_names_of_courses()
+    with allure.step(u'Проверяем, что в этом списке есть курс "Python QA Engineer"'):
+        allure.attach('',
+                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format("Python QA Engineer", names),
+                      allure.attachment_type.TEXT)
+        assert "Python QA Engineer" in names
 
 # def test_check_nearest_courses_python_qa_engineer(browser):
 #     nearest_date = '21 декабря'
@@ -70,33 +74,33 @@ def test_check_numbers_of_courses(browser):
 #                       allure.attachment_type.TEXT)
 #         assert nearest_date == python_qa_page.get_nearest_courses_date()
 
-        # def test_python_qa_engineer_start_in_next_year()
-        # def test_samsung_card(browser):
-        #     samsung_page = SamsungPage(browser)
-        #     assert samsung_page.is_samsung_title() is True
-        #
-        #
-        # def test_registration_account_page(browser):
-        #     account_page = RegisterAccount(browser)
-        #     assert account_page.is_it_registration_page() is True
-        #
-        #
-        # def test_admin_page(browser):
-        #     login_page = LoginPage(browser)
-        #     assert login_page.is_admin_page() is True
-        #
-        #
-        # def test_login_user(browser):
-        #     login_page = LoginPage(browser)
-        #     login_page.login_user('user', 'bitnami1')
-        #     profile_page = ProfilePage(browser)
-        #     assert profile_page.check_user_name() == u'John Doe'
-        #
-        #
-        # def test_log_out(browser):
-        #     login_page = LoginPage(browser)
-        #     login_page.login_user('user', 'bitnami1')
-        #     profile_page = ProfilePage(browser)
-        #     assert profile_page.check_user_name() == u'John Doe'
-        #     profile_page.log_out()
-        #     assert login_page.is_admin_page() is True
+# def test_python_qa_engineer_start_in_next_year()
+# def test_samsung_card(browser):
+#     samsung_page = SamsungPage(browser)
+#     assert samsung_page.is_samsung_title() is True
+#
+#
+# def test_registration_account_page(browser):
+#     account_page = RegisterAccount(browser)
+#     assert account_page.is_it_registration_page() is True
+#
+#
+# def test_admin_page(browser):
+#     login_page = LoginPage(browser)
+#     assert login_page.is_admin_page() is True
+#
+#
+# def test_login_user(browser):
+#     login_page = LoginPage(browser)
+#     login_page.login_user('user', 'bitnami1')
+#     profile_page = ProfilePage(browser)
+#     assert profile_page.check_user_name() == u'John Doe'
+#
+#
+# def test_log_out(browser):
+#     login_page = LoginPage(browser)
+#     login_page.login_user('user', 'bitnami1')
+#     profile_page = ProfilePage(browser)
+#     assert profile_page.check_user_name() == u'John Doe'
+#     profile_page.log_out()
+#     assert login_page.is_admin_page() is True
