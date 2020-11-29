@@ -12,13 +12,22 @@ class PythonQaPage(BasePage):
     CONTAINER = (By.CLASS_NAME, "container__row")
     CONTAINER_HEAD = (By.TAG_NAME, 'p')
 
-    def get_nearest_courses_date(self):
+    def get_nearest_course_date(self):
         elements = self.driver.find_elements(*self.CONTAINER)
         elements = elements[3].find_elements(*self.CONTAINER_HEAD)
         return elements[7].text
 
-    def get_nearest_courses_date_1(self):
-        elements = WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
-            EC.presence_of_all_elements_located(self.CONTAINER))
+    def get_format_course_date(self):
+        elements = self.driver.find_elements(*self.CONTAINER)
         elements = elements[3].find_elements(*self.CONTAINER_HEAD)
-        return elements[7].text
+        return elements[6].text
+
+    def get_course_duration(self):
+        elements = self.driver.find_elements(*self.CONTAINER)
+        elements = elements[3].find_elements(*self.CONTAINER_HEAD)
+        return elements[4].text
+
+    def get_course_days(self):
+        elements = self.driver.find_elements(*self.CONTAINER)
+        elements = elements[3].find_elements(*self.CONTAINER_HEAD)
+        return elements[8].text

@@ -7,7 +7,8 @@ import allure
 all_info = [u'Управляющий партнёр Express42',
             u'Руководитель отдела подготовки экспертов и управления качеством образования']
 
-nearest_date = '21 декабря'
+info_about_course = {"nearest_date": "21 декабря", "format": "Online", "duration": "5 месяцев",
+                     "days": "Пн 20:00, Чт 20:00"}
 
 
 def test_title_on_main_page(browser):
@@ -51,10 +52,50 @@ def test_check_nearest_courses_python_qa_engineer(browser):
     with allure.step(u'Проверяем ближайшую дату начала занятий'):
         python_qa_page = PythonQaPage(browser)
         allure.attach('',
-                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(nearest_date,
-                                                                                   python_qa_page.get_nearest_courses_date()),
+                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(info_about_course['nearest_date'],
+                                                                                   python_qa_page.get_nearest_course_date()),
                       allure.attachment_type.TEXT)
-        assert nearest_date == python_qa_page.get_nearest_courses_date()
+        assert info_about_course['nearest_date'] == python_qa_page.get_nearest_course_date()
+
+
+def test_check_format_course_python_qa_engineer(browser):
+    main_page = MainPage(browser)
+    with allure.step(u'Переходим в раздел "Python QA"'):
+        main_page.go_to_python_qa()
+    with allure.step(u'Проверяем формат обучения'):
+        python_qa_page = PythonQaPage(browser)
+        a = python_qa_page.get_format_course_date()
+        allure.attach('',
+                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(info_about_course['format'],
+                                                                                   python_qa_page.get_format_course_date()),
+                      allure.attachment_type.TEXT)
+        assert info_about_course['format'] == python_qa_page.get_format_course_date()
+
+
+def test_check_duration_of_course_python_qa_engineer(browser):
+    main_page = MainPage(browser)
+    with allure.step(u'Переходим в раздел "Python QA"'):
+        main_page.go_to_python_qa()
+    with allure.step(u'Проверяем в какие дни проходят курсы'):
+        python_qa_page = PythonQaPage(browser)
+        allure.attach('',
+                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(info_about_course['duration'],
+                                                                                   python_qa_page.get_course_duration()),
+                      allure.attachment_type.TEXT)
+        assert info_about_course['duration'] == python_qa_page.get_course_duration()
+
+
+def test_check_days_of_course_python_qa_engineer(browser):
+    main_page = MainPage(browser)
+    with allure.step(u'Переходим в раздел "Python QA"'):
+        main_page.go_to_python_qa()
+    with allure.step(u'Проверяем в какие дни проходят курсы'):
+        python_qa_page = PythonQaPage(browser)
+        allure.attach('',
+                      'Ожидаемый результат: {0}, Полученный результат: {1}'.format(info_about_course['days'],
+                                                                                   python_qa_page.get_course_days()),
+                      allure.attachment_type.TEXT)
+        assert info_about_course['days'] == python_qa_page.get_course_days()
 
 
 def test_number_of_teachers(browser):
