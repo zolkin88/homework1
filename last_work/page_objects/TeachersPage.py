@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class TeachersPage(BasePage):
     TEACHERS_ON_PAGE = (By.CLASS_NAME, 'teachers')
     LAST_TEACHER = (By.XPATH, '/html/body/div[1]/div/div[3]/div/a[269]/div[3]')
-    TEACHERS_NAME = (By.CLASS_NAME, 'teacher')
+    TEACHERS_NAME = (By.CLASS_NAME, 'teacher__name')
     TEACHERS_WORK = (By.CLASS_NAME, 'teacher__work')
     TEACHERS_BIG_WORK = (By.CLASS_NAME, 'big-teacher__work')
 

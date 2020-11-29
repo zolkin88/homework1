@@ -8,7 +8,7 @@ class CoursesPage(BasePage):
     USER_NAME = (By.XPATH, "//*[@header2-menu__dropdown-text_name='Дмитрий Золкин']")
     MAIN_LESSONS = (By.CLASS_NAME, "lessons__page")
     LESSONS = (By.TAG_NAME, "a")
-    PYTHON_QA = (By.XPATH, "/html/body/div[1]/div/div[2]/div[3]/div/div/a[2]/div/div[4]")
+    PYTHON_QA = (By.XPATH, "/html/body/div[1]/div/div[2]/div[3]/div/div/a[2]/div/div[1]/picture/img")
     CONTAINER = (By.CLASS_NAME, "container__row")
     CONTAINER_HEAD = (By.TAG_NAME, 'p')
 
@@ -29,8 +29,9 @@ class CoursesPage(BasePage):
             correct_names.append(name[0])
         return correct_names
 
-    def go_to_python_qa(self):
-        self._click_element(self.PYTHON_QA)
+    # def go_to_python_qa(self):
+    #     self._place_cursor()
+    #     self._click_element(self.PYTHON_QA)
 
     def get_nearest_courses_date(self):
         elements = self.driver.find_elements(*self.CONTAINER)
