@@ -6,11 +6,14 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class TeachersPage(BasePage):
     TEACHERS_ON_PAGE = (By.CLASS_NAME, 'teachers')
-    TEACHERS_NAME = (By.CLASS_NAME, 'teacher__name')
+    LAST_TEACHER = (By.XPATH, '/html/body/div[1]/div/div[3]/div/a[269]/div[3]')
+    TEACHERS_NAME = (By.CLASS_NAME, 'teacher')
     TEACHERS_WORK = (By.CLASS_NAME, 'teacher__work')
     TEACHERS_BIG_WORK = (By.CLASS_NAME, 'big-teacher__work')
 
     def find_teachers_name_webelement(self):
+        WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
+            EC.presence_of_element_located(self.LAST_TEACHER))
         elements = WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
             EC.presence_of_element_located(self.TEACHERS_ON_PAGE))
         elements = elements.find_elements(*self.TEACHERS_NAME)
