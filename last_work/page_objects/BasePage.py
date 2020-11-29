@@ -19,7 +19,7 @@ class BasePage(object):
 
     def _click_element(self, locator):
         WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
-            EC.element_to_be_clickable(locator)).click()
+            EC.presence_of_element_located(locator)).click()
 
     def _get_element_text_by_attr(self, locator, attr):
         element = WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
