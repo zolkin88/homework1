@@ -13,8 +13,11 @@ class MainPage(BasePage):
     SUBMIT_BUTTON = (By.XPATH, "//*[@type='submit']")
     HREF_FORGET_PASS = (By.XPATH, "//*[@title='Забыли пароль?']")
     LIST_OF_COURSES = (By.XPATH, "//p[text() = 'Курсы']")
+    ABOUT_COMPANY = (By.XPATH, "//p[text() = 'О нас']")
     TEST_COURSES = (By.XPATH, "//*[@title='Тестирование']")
+    TEACHERS = (By.XPATH, "/html/body/div[1]/div/header[2]/div/div[2]/div[5]/div[2]/a[4]")
     TITLE_TESTING = (By.TAG_NAME, "h1")
+    TITLE_TEACHERS = (By.TAG_NAME, "h1")
 
     def check_testing_course(self):
         self._place_cursor(self.LIST_OF_COURSES[1])
@@ -23,6 +26,13 @@ class MainPage(BasePage):
         element.click()
         WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
             EC.presence_of_element_located(self.TITLE_TESTING))
+
+    def go_to_info_about_teachers(self):
+        self._place_cursor(self.ABOUT_COMPANY[1])
+        element = self.driver.find_element(*MainPage.TEACHERS)
+        element.click()
+        WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
+            EC.presence_of_element_located(self.TITLE_TEACHERS))
 
     def check_title(self):
         WebDriverWait(self.driver, self.TIME_TO_WAIT).until(

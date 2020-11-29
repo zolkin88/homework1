@@ -16,3 +16,9 @@ class PythonQaPage(BasePage):
         elements = self.driver.find_elements(*self.CONTAINER)
         elements = elements[3].find_elements(*self.CONTAINER_HEAD)
         return elements[7].text
+
+    def get_nearest_courses_date_1(self):
+        elements = WebDriverWait(self.driver, self.TIME_TO_WAIT).until(
+            EC.presence_of_all_elements_located(self.CONTAINER))
+        elements = elements[3].find_elements(*self.CONTAINER_HEAD)
+        return elements[7].text
