@@ -4,6 +4,9 @@ from page_objects.PythonQaPage import PythonQaPage
 from page_objects.TeachersPage import TeachersPage
 import allure
 
+all_info = [u'Управляющий партнёр Express42',
+            u'Руководитель отдела подготовки экспертов и управления качеством образования']
+
 
 def test_title_on_main_page(browser):
     with allure.step(u'Открываем главную страницу Ozone.ru'):
@@ -12,21 +15,20 @@ def test_title_on_main_page(browser):
         main_page.check_title()
 
 
-#
-# # def test_login_on_main_page(browser):
-# #     with allure.step(u'Открываем главную страницу Ozone.ru'):
-# #         main_page = MainPage(browser)
-# #     with allure.step(u'Наживаем на кнопку "Вход или регистрация"'):
-# #         main_page.open_registration_form()
-# #     with allure.step(u'Вводим логин'):
-# #         main_page.input_email(u'dzolkin@htsts.ru')
-# #     with allure.step(u'Вводим пароль'):
-# #         main_page.input_email(u'Zol7013340')
-# #     with allure.step(u'Жмем кнопку Войти'):
-# #         main_page.click_submit_button()
-# #     with allure.step(u'Проверям, что попали в личный кабинет'):
-# #         user_page = UserPage(browser)
-# #         assert user_page.check_user_name() == u'Дмитрий Золкин'
+# def test_login_on_main_page(browser):
+#     with allure.step(u'Открываем главную страницу Ozone.ru'):
+#         main_page = MainPage(browser)
+#     with allure.step(u'Наживаем на кнопку "Вход или регистрация"'):
+#         main_page.open_registration_form()
+#     with allure.step(u'Вводим логин'):
+#         main_page.input_email(u'dzolkin@htsts.ru')
+#     with allure.step(u'Вводим пароль'):
+#         main_page.input_email(u'Zol7013340')
+#     with allure.step(u'Жмем кнопку Войти'):
+#         main_page.click_submit_button()
+#     with allure.step(u'Проверям, что попали в личный кабинет'):
+#         user_page = UserPage(browser)
+#         assert user_page.check_user_name() == u'Дмитрий Золкин'
 
 def test_check_numbers_of_courses(browser):
     main_page = MainPage(browser)
@@ -72,6 +74,21 @@ def test_check_nearest_courses_python_qa_engineer(browser):
         assert nearest_date == python_qa_page.get_nearest_courses_date()
 
 
+def test_number_of_teachers(browser):
+    with allure.step(u'Открываем главную страницу OTUS'):
+        main_page = MainPage(browser)
+    with allure.step(u'Переходим на страницу с именами всех преподавателей'):
+        main_page.go_to_info_about_teachers()
+        teachers_page = TeachersPage(browser)
+    with allure.step(u'Проверяем, количество преподавателй на странице'):
+        assert 269 == teachers_page.get_number_of_teachers()
+    allure.attach('',
+                  'Ожидаемый результат: {0}, Полученный результат: {1}'.format(269,
+                                                                               teachers_page.get_number_of_teachers()),
+                  allure.attachment_type.TEXT)
+
+
+#
 def test_check_teacher_name(browser):
     with allure.step(u'Открываем главную страницу OTUS'):
         main_page = MainPage(browser)
@@ -81,33 +98,17 @@ def test_check_teacher_name(browser):
     with allure.step(u'Проверяем, что в списке, есть нужный нам преподаватель'):
         teachers_page.check_teacher_in_list(u'Семён Вяземский')
 
-# def test_python_qa_engineer_start_in_next_year()
-# def test_samsung_card(browser):
-#     samsung_page = SamsungPage(browser)
-#     assert samsung_page.is_samsung_title() is True
-#
-#
-# def test_registration_account_page(browser):
-#     account_page = RegisterAccount(browser)
-#     assert account_page.is_it_registration_page() is True
-#
-#
-# def test_admin_page(browser):
-#     login_page = LoginPage(browser)
-#     assert login_page.is_admin_page() is True
-#
-#
-# def test_login_user(browser):
-#     login_page = LoginPage(browser)
-#     login_page.login_user('user', 'bitnami1')
-#     profile_page = ProfilePage(browser)
-#     assert profile_page.check_user_name() == u'John Doe'
-#
-#
-# def test_log_out(browser):
-#     login_page = LoginPage(browser)
-#     login_page.login_user('user', 'bitnami1')
-#     profile_page = ProfilePage(browser)
-#     assert profile_page.check_user_name() == u'John Doe'
-#     profile_page.log_out()
-#     assert login_page.is_admin_page() is True
+
+def test_get_all_info_about_teacher(browser):
+    with allure.step(u'Открываем главную страницу OTUS'):
+        main_page = MainPage(browser)
+    with allure.step(u'Переходим на страницу с именами всех преподавателей'):
+        main_page.go_to_info_about_teachers()
+        teachers_page = TeachersPage(browser)
+    with allure.step(u'Выбираем преподавателя по номеру и проверяем его должность'):
+        info = teachers_page.choose_teacher(3)
+    with allure.step(u'Проверяем, что должность преподавателя присутствует в списке должностей'):
+        assert info in all_info
+    allure.attach('',
+                  'Ожидаемый результат: {0}, Полученный результат: {1}'.format(all_info, info),
+                  allure.attachment_type.TEXT)
