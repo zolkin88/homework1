@@ -42,4 +42,4 @@ def browser(request, get_base_url, get_path):
     driver.open = open
     driver.open()
     yield driver
-    # driver.quit()
+    driver.quit()
