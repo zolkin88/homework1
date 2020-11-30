@@ -20,6 +20,7 @@ class MainPage(BasePage):
     PYTHON_QA = (By.XPATH, "//div[1]/div[2]/div[6]/div/a[2]")
     TITLE_TESTING = (By.TAG_NAME, "h1")
     TITLE_TEACHERS = (By.TAG_NAME, "h1")
+    LOGO_OTUS = (By.XPATH, '/html/body/div[1]/div/header[2]/div/div[1]/a')
 
     def check_testing_course(self):
         self._place_cursor(self.LIST_OF_COURSES[1])
@@ -67,3 +68,8 @@ class MainPage(BasePage):
         self._place_cursor(self.TRIGGER_PYTHON_QA[1])
         self._place_cursor(self.PYTHON_QA[1])
         self._click_element(self.PYTHON_QA)
+
+    def go_to_main_page(self):
+        self._click_element(self.LOGO_OTUS)
+        self._place_cursor(self.LIST_OF_COURSES[1])
+
