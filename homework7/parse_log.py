@@ -16,8 +16,7 @@ with open("nginx.log") as file_handler:
             json_data['put'] += 1
         elif var[2][:6] == 'DELETE':
             json_data['delete'] += 1
-        if var[3] != '200':
-            a = var[2].split()
+        if not var[3].startswith("2") and not var[3].startswith("3"):
             json_data["error"].append(re.search(r'^[^ ]+', var[2]).group() + ', ' + var[2].split()[1] + ', ' + var[3])
         if var[0] in json_data["top_ip"].keys():
             json_data['top_ip'][var[0]] += 1
@@ -28,7 +27,6 @@ with open("nginx.log") as file_handler:
         if len(list_top_ip) > 10:
             list_top_ip = list_top_ip[:10]
         json_data['top_ip'] = dict(list_top_ip)
-
 
 with open('result.json', 'w') as f:
     json.dump(json_data, f, indent=4)
