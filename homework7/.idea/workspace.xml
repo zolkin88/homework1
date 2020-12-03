@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5b4970d-0527-4f45-bf79-8241dd038c6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nginx.log" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/result.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kKkzDsvMxHQVhrQE7MQHGb9aS7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/nginx-log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.parse_log">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="homework7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parse_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="homework7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.parse_log" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5b4970d-0527-4f45-bf79-8241dd038c6c" name="Default Changelist" comment="" />
+      <created>1605456930688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605456930688</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="249" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606842913218">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="726" y="249" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.949@67.27.1853.949" timestamp="1606842913218" />
+    <state x="776" y="258" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606761145021">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="776" y="258" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.949@67.27.1853.949" timestamp="1606761145021" />
+    <state width="1830" height="244" key="GridCell.Tab.0.bottom" timestamp="1606987841218">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.bottom/67.27.1853.949@67.27.1853.949" timestamp="1606987841218" />
+    <state width="1830" height="244" key="GridCell.Tab.0.center" timestamp="1606987841217">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.center/67.27.1853.949@67.27.1853.949" timestamp="1606987841217" />
+    <state width="1830" height="244" key="GridCell.Tab.0.left" timestamp="1606987841217">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.left/67.27.1853.949@67.27.1853.949" timestamp="1606987841217" />
+    <state width="1830" height="244" key="GridCell.Tab.0.right" timestamp="1606987841218">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.right/67.27.1853.949@67.27.1853.949" timestamp="1606987841218" />
+    <state width="1830" height="302" key="GridCell.Tab.1.bottom" timestamp="1606987353893">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.bottom/67.27.1853.949@67.27.1853.949" timestamp="1606987353893" />
+    <state width="1830" height="302" key="GridCell.Tab.1.center" timestamp="1606987353892">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.center/67.27.1853.949@67.27.1853.949" timestamp="1606987353892" />
+    <state width="1830" height="302" key="GridCell.Tab.1.left" timestamp="1606987353892">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.left/67.27.1853.949@67.27.1853.949" timestamp="1606987353892" />
+    <state width="1830" height="302" key="GridCell.Tab.1.right" timestamp="1606987353893">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.right/67.27.1853.949@67.27.1853.949" timestamp="1606987353893" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parse_log.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parse_log.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

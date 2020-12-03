@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da88de61-e1e4-4d10-b38e-eca4cb8e1c0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/page_objects/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/MainPage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ke3XZ1IGx19XUDm1P1gKsBARw8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../otus_project" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_otus.py">
+    <configuration name="create_allure_report.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/create_allure_report.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="last_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_otus.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="last_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--browser firefox&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_otus.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="last_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest in test_otus.py" />
+      <item itemvalue="Shell Script.create_allure_report.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_otus.py" />
+        <item itemvalue="Shell Script.create_allure_report.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da88de61-e1e4-4d10-b38e-eca4cb8e1c0e" name="Default Changelist" comment="" />
+      <created>1606047269704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606047269704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606684296383">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="451" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.949@67.27.1853.949" timestamp="1606684296383" />
+    <state x="167" y="125" width="1653" height="751" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606678874452">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="167" y="125" width="1653" height="751" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.949@67.27.1853.949" timestamp="1606678874452" />
+    <state x="682" y="302" width="625" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606673576119">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="682" y="302" width="625" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.949@67.27.1853.949" timestamp="1606673576119" />
+    <state x="726" y="249" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606666122051">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="726" y="249" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.949@67.27.1853.949" timestamp="1606666122051" />
+    <state x="776" y="258" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606688056593">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="776" y="258" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.949@67.27.1853.949" timestamp="1606688056593" />
+    <state width="1830" height="244" key="GridCell.Tab.0.bottom" timestamp="1606688057876">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.bottom/67.27.1853.949@67.27.1853.949" timestamp="1606688057876" />
+    <state width="1830" height="244" key="GridCell.Tab.0.center" timestamp="1606688057875">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.center/67.27.1853.949@67.27.1853.949" timestamp="1606688057875" />
+    <state width="1830" height="244" key="GridCell.Tab.0.left" timestamp="1606688057874">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.left/67.27.1853.949@67.27.1853.949" timestamp="1606688057874" />
+    <state width="1830" height="244" key="GridCell.Tab.0.right" timestamp="1606688057875">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="244" key="GridCell.Tab.0.right/67.27.1853.949@67.27.1853.949" timestamp="1606688057875" />
+    <state width="1830" height="302" key="GridCell.Tab.1.bottom" timestamp="1606688057853">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.bottom/67.27.1853.949@67.27.1853.949" timestamp="1606688057853" />
+    <state width="1830" height="302" key="GridCell.Tab.1.center" timestamp="1606688057852">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.center/67.27.1853.949@67.27.1853.949" timestamp="1606688057852" />
+    <state width="1830" height="302" key="GridCell.Tab.1.left" timestamp="1606688057851">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.left/67.27.1853.949@67.27.1853.949" timestamp="1606688057851" />
+    <state width="1830" height="302" key="GridCell.Tab.1.right" timestamp="1606688057853">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.1.right/67.27.1853.949@67.27.1853.949" timestamp="1606688057853" />
+    <state x="837" y="415" width="303" height="171" key="VCS.ChangelistChooser" timestamp="1606666349904">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="837" y="415" width="303" height="171" key="VCS.ChangelistChooser/67.27.1853.949@67.27.1853.949" timestamp="1606666349904" />
+    <state width="926" height="475" key="XDebugger.FullValuePopup" timestamp="1606062880481">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state width="926" height="475" key="XDebugger.FullValuePopup/67.27.1853.949@67.27.1853.949" timestamp="1606062880481" />
+    <state x="656" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1606063537227">
+      <screen x="67" y="27" width="1853" height="949" />
+    </state>
+    <state x="656" y="231" width="672" height="678" key="search.everywhere.popup/67.27.1853.949@67.27.1853.949" timestamp="1606063537227" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/CoursesPage.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/CoursesPage.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_otus.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/PythonQaPage.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/PythonQaPage.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_otus.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/MainPage.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_objects/MainPage.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
